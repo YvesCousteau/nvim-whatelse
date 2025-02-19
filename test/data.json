@@ -1,0 +1,135 @@
+[
+  {
+    "title": "work",
+    "lists": [
+      {
+        "title": "projects",
+        "tasks": [
+          {
+            "title": "rewind",
+            "state": "DOING",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "1984",
+            "state": "DOING",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "email on warning",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "title": "books",
+        "tasks": [
+          {
+            "title": "The Rust (2nd)",
+            "state": "DONE",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Mastering Bitcoin",
+            "state": "DONE",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "MicroPython",
+            "state": "DONE",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "The Markdown guide",
+            "state": "DONE",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Mastering Etherum",
+            "state": "DOING",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Mastering the lighning network",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Rust in action",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Mastering Linux Security and Hardening",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "perso",
+    "lists": [
+      {
+        "title": "projects_1",
+        "tasks": []
+      },
+      {
+        "title": "projects_2",
+        "tasks": []
+      }
+    ]
+  },
+  {
+    "title": "rewind",
+    "lists": [
+      {
+        "title": "ui",
+        "tasks": [
+          {
+            "title": "Validation Box Yes/No",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Date Selecter Box 01/01/2020",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Icons dynamic update",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "title": "features",
+        "tasks": [
+          {
+            "title": "Encrypted storage",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Online storage",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Sync storage",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          },
+          {
+            "title": "Mobile interactions",
+            "state": "TODO",
+            "date": "UNDEFINED"
+          }
+        ]
+      }
+    ]
+  }
+]

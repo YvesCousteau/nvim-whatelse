@@ -1,3 +1,4 @@
+local api = vim.api
 local M = {}
 
 function M.lazy_load(module_name)
@@ -12,14 +13,14 @@ M.state = M.lazy_load("rewind.state")
 M.util = M.lazy_load("rewind.util")
 M.ui = M.lazy_load("rewind.ui")
 M.config = M.lazy_load("rewind.config")
-M.keymap = M.lazy_load("rewind.keymap")
-M.command = M.lazy_load("rewind.command")
-M.data = M.lazy_load("rewind.data")
+M.controller = M.lazy_load("rewind.controller")
 M.autocmd = M.lazy_load("rewind.autocmd")
+M.keymaps = M.lazy_load("rewind.keymaps")
+M.formatting = M.lazy_load("rewind.formatting")
 
 function M.setup(opts)
 	M.config.setup(opts)
-	vim.api.nvim_create_user_command("RewindToggle", M.ui.setup, {})
+	api.nvim_create_user_command("RewindToggle", M.ui.toggle_ui, {})
 end
 
 return M
